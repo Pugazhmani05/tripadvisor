@@ -1,0 +1,556 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headin {
+    margin: 0% 10%;
+}
+
+.sections {
+    padding: 10px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.Contact,
+.menu {
+    display: none;
+}
+
+.s__1 {
+    display: flex;
+    align-items: center;
+}
+
+.s__2 {
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.s__3 button {
+    padding: 12px 24px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+}
+
+
+.s__3_1 {
+    display: flex;
+    gap: 5px;
+}
+
+.sections img {
+    width: 10%;
+}
+
+.to {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 350%;
+    margin-top: 15px;
+}
+
+.catagories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    margin: 40px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    width: 65%;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 50px;
+    margin-top: 40px;
+    font-size: 18px;
+    background-color: azure;
+}
+
+.se__1 {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    gap: 5px;
+
+}
+
+.se__1 input {
+    cursor: pointer;
+    border: none;
+    background-color: azure;
+    outline: none;
+    width: 250px;
+}
+
+
+.search button {
+    border: none;
+    background-color: #00eb5b;
+    padding: 15px;
+    border: solid black 1px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.search img {
+    width: 5%;
+
+}
+
+.pic {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background-color: #00eb5b;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.p__1 {
+    border-right: 1px solid black;
+    padding-right: 25px;
+}
+
+.p__1 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.p__2 {
+    margin: 0px 70px;
+    width: 150%;
+}
+
+.pic h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+
+}
+
+.pic button {
+    font-size: 18px;
+    background-color: #002B11;
+    color: white;
+    border: none;
+    border: 1px solid #002B11;
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.do {
+    padding: 10px;
+}
+
+.calaction {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+
+}
+
+.calaction div {
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 0px 10px 30px 0px;
+}
+
+.calaction img {
+    border-radius: 10%;
+    width: 100%;
+    height: 100%;
+}
+
+.calaction h1 {
+    color: aliceblue;
+    font-size: 250%;
+    margin-left: 10%;
+    position: relative;
+    bottom: 30%;
+}
+
+.calaction__1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.calaction__1 div {
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 0px 10px 30px 0px;
+}
+
+.calaction__1 img {
+    border-radius: 10%;
+    width: 100%;
+    height: 80%;
+}
+
+.calaction__1 h1 {
+    color: white;
+    font-size: 250%;
+    margin-left: 70%;
+    position: relative;
+    bottom: 100%;
+    text-align: center;
+}
+
+.calaction__1 p {
+    text-align: center;
+}
+
+.calaction__1 button {
+    border: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.pic__1 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background-color: wheat;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.p__01 {
+    border-right: 1px solid black;
+    padding-right: 25px;
+}
+
+.p__01 img {
+    width: 110%;
+    border-radius: 20px;
+}
+
+.p__02 {
+    margin: 0px 30px;
+    width: 150%;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.pic__1 h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+
+}
+
+.pic__1 button {
+    font-size: 18px;
+    background-color: #002B11;
+    color: white;
+    border: none;
+    border: 1px solid #002B11;
+    padding: 15px;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.p__02 img {
+    width: 6%;
+}
+
+.p__02 p {
+    padding: 20px;
+}
+
+.borders {
+    background-color: #002B11;
+    margin: 50px 0px;
+    display: flex;
+}
+
+.b__1 {
+    margin: 0% 10%;
+    color: white;
+    width: 400px;
+    padding: 10px;
+}
+
+.b__1 img {
+    width: 15%;
+}
+
+.b__1 h1 {
+    font-size: 60px;
+}
+
+.b__1 button {
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 40px 0px;
+}
+
+.c__pic img {
+    width: 70%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.lost {
+    background-color: antiquewhite;
+}
+
+.lost__1 {
+    margin: 0% 10%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lost__1 h3 {
+    margin: 7% 0%;
+}
+
+.lost__2 {
+    margin: 0% 10%;
+    padding: 20px;
+    display: flex;
+}
+
+.lost__2 img {
+    width: 5%;
+}
+
+.lost__2_1 {
+    width: 100%;
+}
+
+.lost__3 {
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+}
+
+.l {
+    border: solid black 3px;
+    border-radius: 20px;
+    padding: 15px;
+    width: 100px;
+}
+
+.lostlogo img {
+    width: 10%;
+    margin-left: 5%;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        font-size: 10px;
+
+    }
+
+    .headin {
+        margin: 0% 7%;
+    }
+.s__1 img{
+    width: 20%;
+}
+    .s__3,
+    .s__2,
+    .s__3_1 {
+        display: none;
+    }
+    .Contact,
+    .menu {
+        display: block;
+    }
+
+    .sections i {
+        width: 30px;
+    }
+
+    .sections {
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .catagories {
+        font-size: 10px;
+        margin: 0%;
+    }
+
+    .search {
+        flex-wrap: wrap;
+        border-radius: 10px;
+        width: 85%;
+        gap: 10px;
+    }
+
+    .se__1 {
+        gap: 20px;
+    }
+
+    .search button {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .pic {
+        
+        flex-wrap: wrap;
+        width: fit-content;
+    }
+    .pic hr{
+        display: none;
+    }
+    .p__1 img {
+        width: 200px;
+        height: 200px;
+    }
+    .p__2 {
+        width: 150px;
+        margin: 10px;
+    }
+
+    .p__2 h1 {
+        font-size: 20px;
+    }
+
+    .p__2 button {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .p__2 button {
+        margin: 0% 5%;
+    }
+
+    .calaction,
+    .calaction__1 {
+        width: 100%;
+    }
+
+    .calaction img,
+    .calaction__1 img {
+        width: 150px;
+        height: 170px;
+    }
+.calaction__1 i{
+    display: none;
+}
+    .calaction h1,
+    .calaction__1 button {
+        font-size: 10px;
+    }
+
+    .pic__1 {
+        width: fit-content;
+        flex-wrap: wrap;
+    }
+
+    .p__01 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .p__02 img {
+        width: 13%;
+    }
+.p__02 h1{
+    font-size: 20px;
+}
+    .p__02 {
+        width: 140%;
+        margin: 0%;
+        margin-left: 45px;
+    }
+
+    .p__02 button {
+        margin: 0% 10%;
+        padding: 10px;
+    }
+.borders{
+    margin: 2%;
+}
+    .b__1 {
+        margin: 0%;
+    }
+
+    .b__1 h1 {
+        font-size: 30px;
+    }
+
+    .b__1 button {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .c__pic {
+        width: fit-content;
+        margin: 10% -5%;
+    }
+
+    .c__pic img {
+        height: 300px;
+        width: 200px;
+    }
+
+    .lostlogo img {
+        width: 20px;
+    }
+
+    .l {
+        width: 50px;
+    }
+.lost{
+    margin: 2%;
+}
+    .lost__2 {
+        gap: 10px;
+        margin: 0%;
+    }
+
+    .lost__3 {
+        padding: 10px;
+    }
+
+    .lost__1 {
+        gap: 10px;
+        margin: 0%;
+    }
+}
